@@ -101,6 +101,10 @@ body{
   max-width: 1140px;
   margin: 0 auto;
 }
+.slider-four{
+  max-width: 1140px;
+  margin: 0 auto;
+}
 .text input{
   font-size: 20px;
   margin-bottom: 125px;
@@ -266,40 +270,53 @@ body{
   a.button23 :hover:after {transition: 0s ease opacity .4s, .2s ease height .4s , .2s ease width .6s;}
   a.button23 :hover {background: rgba(255,255,255,.2);}
 
-  
+  .about_foto{
+    white-space: normal;
+  }
   .about-fotos d2 + d2{
     padding-left: 30px;
+    position: relative;
   }
 
-  
   .card{
-    position:relative; 
-    left: 726px;
-    background-position: center;
-    max-width: 1140px;
+    padding-top: 10px;
+  }
+  .card iframe{
+    height: 100px;
+    max-width: 400px;
+    /*background-position: center;
     margin: 0 auto;
+    position:relative; */
     width: 100%;
   }
 
+ 
   .about_items{
+    display: flex;
+    justify-content: space-between;
     padding: 66px 0px 66px;
   }
-  .about_items{
+  
+  .end_items{
     display: flex;
     justify-content: space-between;
   }
-  .about_items{
+  .end_item{
+    max-width: 360px;
+    text-align: center;
+    background-image: url(../img/MRTravel.jpg);
+    
 
-    display: flex;
-    justify-content: space-between;
   }
   .about_item{
     max-width: 360px;
     text-align: left;
     padding: 10px 0px 38px;
+    position: relative;
     background-color: rgb(255, 227, 243);
     box-shadow: 0px 7px 24.3px 2.7px rgb(138, 48, 75);
     min-height: 365px;
+    width: 100%;
 
   }
 
@@ -354,4 +371,8 @@ body{
     padding: 0px 12px 0px;
     line-height: 26px;
 
+  }
+  .footer_content{
+    background-attachment: white;
+    padding: 40px 0px 60px;
   }
