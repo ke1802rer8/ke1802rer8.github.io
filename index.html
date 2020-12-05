@@ -6,13 +6,16 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Rasa:wght@300;500&family=Ribeye&family=Rokkitt:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
+    
     <header class="header">
         <div class="header__content">  
             <div class="container">
@@ -24,6 +27,9 @@
         
                     </div>
                     <nav class="menu">
+                        <div class="header__btn-menu">
+                            <span class="icon-bars"></span>
+                        </div>
                         <ul>
                             <li><a href="#" class="">Accomodethions</a></li>
                             <li><a href="#" class="">Events</a></li>
@@ -128,21 +134,34 @@
             </div>
         </div>
     </section>
-    <footer class="slider-four">
-        <div class="footer_content">
+    <section class="slider-four">
+        
             <div class="container">
                 <div class="end_items">
                     <div class="end_item">
-                        
+                        MRTravel
                     </div>
                     <div class="end_item2">
                         <div class="title_number">
                             Leave the number so that we can contact you:
-                            <d2><p><input type="tel" name="tel" pattern="2[0-9]{3}-[0-9]{3}"></p></d2>
-                            <d2><p><input type="submit" value="GO"></p></d2>
-    
+                        </div>
+                        <div class="end_number">
+                            <form name ="travel" method="post" action="input1.php" class="text" >
+                                <d2><input type="tel" name="tel"  pattern="2[0-9]{3}-[0-9]{3}" placeholder="+7 951 *** ** **"></d2>
+                                <d2><a href="#" class="button25">GO</a></d2>
+                            </form>
                         </div>
                     </div>
+                </div>
+            </div>
+        
+
+    </section>
+    <footer class="footer">
+        <div class="footer_copy">
+            <div class="container">
+                <div class="copy_text">
+                    Template by Ekaterina Roshka 2020. Все права защищены.
                 </div>
             </div>
         </div>
