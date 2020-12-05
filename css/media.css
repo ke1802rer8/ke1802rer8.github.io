@@ -123,7 +123,7 @@
       a.button25:active { background: linear-gradient(#f82b81, #ce41f1) #f50072; }
 
 }
-@media(max-width: 500px){
+@media(max-width: 550px){
     
     .end_item{
         max-width: 50%;
